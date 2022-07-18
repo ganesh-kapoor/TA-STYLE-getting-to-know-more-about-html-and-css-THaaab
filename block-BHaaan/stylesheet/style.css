@@ -46,51 +46,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Custom CSS */
-.header  {
-	background: rgb(199,134,199);
-	padding: 15px 0;
+/* Custom Styles */
+body{
+	line-height: 1.5;
+}
+.header{
+	background-color: #c786c7;
 	text-align: center;
-	font-size: 15px;
-	font-weight:bolder;
+	padding: 20px;
 }
 a{
+	margin-left: 16px;
+	margin-right: 16px;
+	text-transform: uppercase;
 	text-decoration: none;
-	margin: 0 10px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(111,112,222);
 }
-h1{
-	text-align: center;
-	color: rgb(111,112,222);
+/* Article */
+img{
+	width: 100%;
 }
-.container{
-	text-align: center;
-	margin: 10px 0;
+.blog{
+	width: 450px;
+	margin: 0 auto;
 }
-h2{
-	font-weight: bolder	;
+.time{
+	color: #454ce7;
+	margin: 16px 0;
 }
-h3{
-	color: royalblue;
+.heading{
+	font-size: 30px;
+	color: black;
+	margin: 25px 0;
+	text-transform: capitalize;
 }
 .para{
-	max-width: 550px;
-	margin: 12px 260px;
-
+	font-size: 18px;
+	margin-bottom: 15px;
 }
-a{
-	font-weight: bold;
-}
-footer{
-	background-color: rgb(143,144,231);
-	padding: 10px 0;
+/* Footer */
+.footer{
+	background-color: #9090e8;
 	text-align: center;
-	font-size: 16px;
-
-}img{
-	width: 450px;
-}
-hr{
-	width: 43%;
+	padding: 20px;
+	margin-top: 22px;
+	font-size: 22px;
 }
